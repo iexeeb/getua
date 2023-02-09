@@ -3,5 +3,5 @@ const addDiv = (text) =>
 
 const text = JSON.stringify(UAParser(), null, "\t")
   .replaceAll("\n", "<br>")
-  .replaceAll("\t", "&nbsp;&nbsp;&nbsp;&nbsp;");
+  .replaceAll("\t", "&nbsp;&nbsp;");
 addDiv(text);
